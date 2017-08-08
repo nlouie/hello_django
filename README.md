@@ -35,3 +35,9 @@ Create a virtual environment for our django project
 
 #### Adding a new app
     `$ python manage.py startapp <app-name>`
+
+
+
+## Resources
+- https://docs.djangoproject.com/en/1.11/
+- https://github.com/django/django
