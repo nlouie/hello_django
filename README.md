@@ -31,7 +31,7 @@ Create a virtual environment for our django project
     `$ django-admin.py startproject <project-name>`
     `$ cd <project-name>`
 #### Running a Django Server
-    `python manage.py runserver`
+    `$ python manage.py runserver`
 
-
-
+#### Adding a new app
+    `$ python manage.py startapp <app-name>`
