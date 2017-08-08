@@ -34,7 +34,11 @@ Create a virtual environment for our django project
     `$ python manage.py runserver`
 
 #### Adding a new app
+    1. Create your app
     `$ python manage.py startapp <app-name>`
+    2. In `<project-name>/settings.py`, add `<app-name>` to `INSTALLED_APPS`
+    3. In `<project-name>/url.py` add `<app-name>` to `urlpatterns`
+
 
 
 
