@@ -6,4 +6,4 @@ from django.http import HttpResponse
 # django views are synonymous to a controller in the MVC framework
 
 def home(request):
-    return HttpResponse("Hello, World!")
+    return render(request, "main/home.html")
